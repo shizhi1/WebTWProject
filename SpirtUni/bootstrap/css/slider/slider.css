@@ -35,6 +35,20 @@
 }
 
 .title {
+     position: absolute;
+     width: 680px;
+     height: 120px;
+     top: 50px;
+     left: 80px;
+     padding: 5px;
+     text-align: left;
+     line-height: 60px;
+     text-transform: uppercase;
+     font-size: 50px;
+     color: #FFFFFF;
+}
+
+.title1 {
     position: absolute;
     width: 680px;
     height: 120px;
@@ -42,10 +56,41 @@
     left: 80px;
     padding: 5px;
     text-align: left;
-    line-height: 60px;
+    line-height: 35px;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 30px;
     color: #FFFFFF;
+    text-shadow: 3px 3px #000000;
+}
+
+.title2 {
+     position: absolute;
+     width: 680px;
+     height: 120px;
+     top: 50px;
+     right: 5px;
+     padding: 5px;
+     text-align: left;
+     line-height: 35px;
+     text-transform: uppercase;
+     font-size: 30px;
+     color: #FFFFFF;
+     text-shadow: 3px 3px #000000;
+}
+
+.title3 {
+    position: absolute;
+    width: 580px;
+    height: 120px;
+    top: 60px;
+    right: -60px;
+    padding: 5px;
+    text-align: left;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow: 3px 3px #000000;
 }
 
 .subtitle {
@@ -59,6 +104,48 @@
     line-height: 36px;
     font-size: 30px;
     color: #FFFFFF;
+}
+
+.subtitle1 {
+    position: absolute;
+    width: 480px;
+    height: 120px;
+    top: 150px;
+    left: 130px;
+    padding: 5px;
+    text-align: left;
+    line-height: 36px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+}
+
+.subtitle2 {
+     position: absolute;
+     width: 480px;
+     height: 120px;
+     top: 170px;
+     right: 150px;
+     padding: 5px;
+     text-align: left;
+     line-height: 36px;
+     font-size: 20px;
+     color: #FFFFFF;
+     text-shadow: 2px 2px #000000;
+}
+
+.subtitle3 {
+    position: absolute;
+    width: 480px;
+    height: 120px;
+    top: 170px;
+    right: 7px;
+    padding: 5px;
+    text-align: left;
+    line-height: 36px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
 }
 
 .jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn {
