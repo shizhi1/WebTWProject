@@ -23,6 +23,19 @@
 <script type="text/javascript" src="./js/jssor.js"></script>
 <script type="text/javascript" src="./js/jssor.slider.js"></script>
 <script>
+    function menu(){
+
+
+        var button = document.getElementById("menu").className= "nav dropdown";
+        var menu = document.querySelector(".topmenu");
+        if (menu.style.display =='none')
+            menu.style.display = "inline";
+        else
+            menu.style.display = "none";
+
+    }
+</script>
+<script>
     jQuery(document).ready(function ($) {
 
         var _CaptionTransitions = [];
@@ -110,48 +123,46 @@
 <!-- Home slider end -->
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-3">
+    <div class="row top">
+
+        <div class="leftcol">
             <div class="logo">
                 <img src="images/logo.png">
             </div>
-        </div>
-
-        <div class="col-sm-9">
-            <div class="rightheader">
-                <div class="down">
-                    <div class="test">
-                        <div class="logbut">
-                            <a href="#">ВХОД</a>
-                        </div>
-                    </div>
-                    <div class="test">
-                        <div class="topmenu">
-                            <ul class="nav nav-pills">
-                                <li><a href="#">НОВИНИ</a></li>
-                                <li><a href="#">ЗА УНИВЕРСИТЕТА</a></li>
-                                <li class="dropdown">
-                                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">ОБУЧЕНИЯ <b
-                                            class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Курсове</a></li>
-                                        <li><a href="#">Fast-Track курсове</a></li>
-                                        <li><a href="#">Семинари</a></li>
-                                    </ul>
-                                <li><a href="#">РАБОТА</a></li>
-                                <li><a href="#">ПАРТНЬОРИ</a></li>
-                                <li><a href="#">фОРУМ</a></li>
-                                <li><a href="#">КОНТАКТИ</a></li>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-
-                </div>
-
+            <div class="logosmall">
+                <img src="images/logosmall.png">
             </div>
         </div>
+
+        <div class="rightcol">
+            <div class="vmenu"><img onclick="menu()" src="images/menubutton.png"></div>
+            <div class="righthead">
+                <div class="logbut">
+                    <a href="#">ВХОД</a>
+                </div>
+
+                <div class="topmenu">
+                    <ul id="menu" class="nav nav-pills">
+                        <li><a href="#">НОВИНИ</a></li>
+                        <li><a href="#">ЗА УНИВЕРСИТЕТА</a></li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">ОБУЧЕНИЯ <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Курсове</a></li>
+                                <li><a href="#">Fast-Track курсове</a></li>
+                                <li><a href="#">Семинари</a></li>
+                            </ul>
+                        <li><a href="#">РАБОТА</a></li>
+                        <li><a href="#">ПАРТНЬОРИ</a></li>
+                        <li><a href="#">ФОРУМ</a></li>
+                        <li><a href="#">КОНТАКТИ</a></li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
     </div>
     <div class="row">
         <div class="slide">

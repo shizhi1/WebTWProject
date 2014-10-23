@@ -1,29 +1,35 @@
-
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
 
 .container-fluid {
     height: 105px;
     background-color: #234465;
 }
-
-.top {
-    width: 93%;
-    margin:0 auto;
+.logo {
+    margin-left: -15px;
 }
-.vmenu {
-    display: none;
+.rightheader {
+    height: 86px;
+    color:#fff;
 }
-
+.down{
+    margin-top: 2%;
+}
 .logbut {
     width: 65px;
     height: 35px;
     background-color: #ff9c00;
+    margin-left: 85%;
     padding: 8px 12px;
-    float: right;
-    clear: right;
-}
-.righthead {
-    background-color: #fff;
-    margin-top: 23px;
 }
 .logbut a{
     color: #fff;
@@ -35,18 +41,19 @@
     font-weight: bold;
     text-shadow: 1px 1px #424242;
 }
-
+.topmenu {
+    margin-left: 28%;
+    margin-top: 5px;
+}
 ul.nav {
-    background-color: #234465;
-    float: right;
-    clear: right;
+    margin: 0;
 }
 ul.nav a{
     color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-shadow: 1px 1px #424242;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 0.5px;
 
 }
@@ -109,45 +116,8 @@ ul.nav a{
 
 .slide{
     margin: 0px;
-
+    background-color: transparent;
 }
 
-.leftcol {
-    width:30%;
-    float:left;
-}
-.rightcol {
-    width: 70%;
-    float:left;
-
-}
-.logosmall {
-    display: none;
-    width: 105px;
-}
-
-
-@media screen and (max-width: 992px) {
-    .vmenu {
-        display: inline-block;
-        float: right;
-        margin-top: 30px;
-    }
-    .logbut {
-        display: none;
-    }
-    .topmenu {
-        display: none;
-    }
-
-}
-@media screen and (max-width: 360px){
-    .logo{
-        display: none;
-    }
-    .logosmall{
-        display: block;
-    }
-}
 
 
