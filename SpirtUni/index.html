@@ -11,6 +11,13 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <link href="bootstrap/css/style.css" rel="stylesheet"/>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#head").load("header.html");
+            $("#foot").load("footer.html");
+        });
+    </script>
     <style type="text/css">
         .bs-example {
             margin: 20px;
@@ -18,10 +25,11 @@
     </style>
 </head>
 <body>
-<script>(function(d, s, id) {
+<script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
+    js = d.createElement(s);
+    js.id = id;
     js.src = "//connect.facebook.net/bg_BG/sdk.js#xfbml=1&version=v2.0";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
@@ -30,12 +38,12 @@
 <script type="text/javascript" src="./js/jssor.js"></script>
 <script type="text/javascript" src="./js/jssor.slider.js"></script>
 <script>
-    function menu(){
+    function menu() {
 
 
-        var button = document.getElementById("menu").className= "nav dropdown";
+        var button = document.getElementById("menu").className = "nav dropdown";
         var menu = document.querySelector(".topmenu");
-        if (menu.style.display =='none')
+        if (menu.style.display == 'none')
             menu.style.display = "inline";
         else
             menu.style.display = "none";
@@ -128,47 +136,9 @@
     });
 </script>
 <!-- Home slider end -->
+<header id="head"></header>
 
-<div class="container-fluid">
-    <div class="row top">
-
-        <div class="leftcol">
-            <div class="logo">
-                <img src="images/logo.png">
-            </div>
-            <div class="logosmall">
-                <img src="images/logosmall.png">
-            </div>
-        </div>
-        <div class="rightcol">
-            <div class="vmenu"><img onclick="menu()" src="images/menubutton.png"></div>
-            <div class="righthead">
-                <div class="logbut">
-                    <a href="#">ВХОД</a>
-                </div>
-                <div class="topmenu">
-                    <ul id="menu" class="nav nav-pills">
-                        <li><a href="#">НОВИНИ</a></li>
-                        <li><a href="#">ЗА УНИВЕРСИТЕТА</a></li>
-                        <li class="dropdown">
-                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">ОБУЧЕНИЯ <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Курсове</a></li>
-                                <li><a class="course" href="jibri-course.html">Jibri Basics ноември 2014</a></li>
-                                <li><a class="course" href="wine-course.html">Wine Fundamentals ноември 2014</a></li>
-                                <li><a href="#">Fast-Track курсове</a></li>
-                                <li><a href="#">Семинари</a></li>
-                            </ul>
-                        <li><a href="#">РАБОТА</a></li>
-                        <li><a href="#">ПАРТНЬОРИ</a></li>
-                        <li><a href="#">ФОРУМ</a></li>
-                        <li><a href="#">КОНТАКТИ</a></li>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+<main>
     <div class="row">
         <div class="slide">
             <div class="slider1_container" id="slider1_container">
@@ -225,72 +195,51 @@
             </div>
             <!-- Jssor Slider End -->
         </div>
-            <div class="maincontent">
-                <div class="content-left">
-                    <h1>За университета</h1>
-                    <img src="images/universityIcons.svg">
-                    <p>За нас, както и за цялата софтуерна индустрия, е най-важен <strong>практическият опит.</strong> Нашата мисия е да направим хората, които обучаваме,<strong>истински професионалисти в софтуерната индустрия</strong>  и да им съдействаме в <strong>намирането на работа.</strong></br></br>
+        <div class="maincontent">
+            <div class="content-left">
+                <h1>За университета</h1>
+                <img src="images/universityIcons.svg">
 
-                        Учебният план, по който се провеждат занятията в Софтуерния университет, се състои от няколко нива – едно подготвително ниво за приемния изпит (2 месеца) и 6 нива обучение по програмиране, технологии и разработка на софтуер (всяко по 4 месеца). Предоставя се възможност за получаване на <strong> университетска диплома</strong> за висше образование от един от нашите университети-партньори след допълнително обучение при тях с продължителност 1 или 2 години.</p>
-                </div>
-                <div class="content-mid">
-                    <h1>Fast Track курсове</h1>
-                    <img src="images/fastrack.jpg">
-                    <p>Fast Track курсовете представляват ускорени курсове, които ви дават <strong>максимално много знания за по-кратко време.</strong> Материалът се усвоява лесно поради програмата ни, която включва <strong>много упражнения.</strong></p>
-                </div>
-                <div class="content-right">
-                    <h1>Новини</h1>
-                    <img src="images/news1.jpg">
-                    <a href="#">НОВО ПОДГОТВИТЕЛНО НИВО ОТ 15 НОЕМВРИ В СОФИЯ</a>
-                    <p class="date">22/10/2014</p>
-                    <img src="images/news1.jpg">
-                    <a href="#">НОВО ПОДГОТВИТЕЛНО НИВО ОТ 15 НОЕМВРИ В СОФИЯ</a>
-                    <p class="date">22/10/2014</p>
-                    <img src="images/news1.jpg">
-                    <a href="#">НОВО ПОДГОТВИТЕЛНО НИВО ОТ 15 НОЕМВРИ В СОФИЯ</a>
-                    <p class="date">22/10/2014</p>
-                    <img src="images/news1.jpg">
-                    <a href="#">НОВО ПОДГОТВИТЕЛНО НИВО ОТ 15 НОЕМВРИ В СОФИЯ</a>
-                    <p class="date">22/10/2014</p>
-                </div>
+                <p>За нас, както и за цялата софтуерна индустрия, е най-важен <strong>практическият опит.</strong>
+                    Нашата мисия е да направим хората, които обучаваме,<strong>истински професионалисти в софтуерната
+                        индустрия</strong> и да им съдействаме в <strong>намирането на работа.</strong></br></br>
+
+                    Учебният план, по който се провеждат занятията в Софтуерния университет, се състои от няколко нива –
+                    едно подготвително ниво за приемния изпит (2 месеца) и 6 нива обучение по програмиране, технологии и
+                    разработка на софтуер (всяко по 4 месеца). Предоставя се възможност за получаване на <strong>
+                        университетска диплома</strong> за висше образование от един от нашите университети-партньори
+                    след допълнително обучение при тях с продължителност 1 или 2 години.</p>
             </div>
-    </div>
-    <footer>
-        <div class="buttonscolumn">
-            <a href="#"><div class="footerbuttons"><p>Apply Now</p></div></a>
-            <a href="#"><div class="footerbuttons"><p>Fast Track Courses</p></div></a>
-        </div>
-        <div class="about">
-            <h1>ABOUT THE UNIVERSITY</h1>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Professions</a></li>
-                <li><a href="#">Plans</a></li>
-                <li><a href="#">Partner universities</a></li>
-                <li><a href="#">Trainers</a></li>
-                <li><a href="#">Doorms</a></li>
-                <li><a href="#">Apply</a></li>
-            </ul>
-        </div>
-        <div class="friends">
-            <h1>НАШИТЕ ПРИЯТЕЛИ</h1>
-            <ul>
-                <li><a href="#">Svetlin Nakov Blog</a></li>
-                <li><a href="#">C# book</a></li>
+            <div class="content-mid">
+                <h1>Fast Track курсове</h1>
+                <img src="images/fastrack.jpg">
 
-            </ul>
+                <p>Fast Track курсовете представляват ускорени курсове, които ви дават <strong>максимално много знания
+                    за по-кратко време.</strong> Материалът се усвоява лесно поради програмата ни, която включва
+                    <strong>много упражнения.</strong></p>
+            </div>
+            <div class="content-right">
+                <h1>Новини</h1>
+                <img src="images/news1.jpg">
+                <a href="#">НОВО ПОДГОТВИТЕЛНО НИВО ОТ 15 НОЕМВРИ В СОФИЯ</a>
+
+                <p class="date">22/10/2014</p>
+                <img src="images/news1.jpg">
+                <a href="#">НОВО ПОДГОТВИТЕЛНО НИВО ОТ 15 НОЕМВРИ В СОФИЯ</a>
+
+                <p class="date">22/10/2014</p>
+                <img src="images/news1.jpg">
+                <a href="#">НОВО ПОДГОТВИТЕЛНО НИВО ОТ 15 НОЕМВРИ В СОФИЯ</a>
+
+                <p class="date">22/10/2014</p>
+                <img src="images/news1.jpg">
+                <a href="#">НОВО ПОДГОТВИТЕЛНО НИВО ОТ 15 НОЕМВРИ В СОФИЯ</a>
+
+                <p class="date">22/10/2014</p>
+            </div>
         </div>
-        <div class="system">
-            <h1>SOFTWARE UNIVERSITY LEARNING SYSTEM - 1.0.5287</h1>
-            <p>© 2013-2014 - Software University. All Rights Reserved.</p>
-            <div class="socialicons"><a href="#"><img width="30" src="images/tweet_icon.png"></a></div>
-            <div class="socialicons"><a href="#"><img width="30" src="images/face_icon.png"></a></div>
-            <div class="socialicons"><a href="#"><img width="30" src="images/google_icon.png"></a></div>
-        </div>
-        <div class="facebook">
-            <div class="fb-like-box" data-href="https://www.facebook.com/SoftwareUniversity" data-width="254" data-height="211" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
-        </div>
-    </footer>
-</div>
+    </div>
+</main>
+<footer id="foot"></footer>
 </body>
 </html>
