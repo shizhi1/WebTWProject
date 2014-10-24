@@ -1,8 +1,18 @@
-
+body {
+    background-color: #eeeeee;
+}
 
 .container-fluid {
     height: 105px;
     background-color: #234465;
+}
+h1{
+    color: #234465;
+    font-size: 22px;
+    font-weight: bold;
+}
+p {
+    color: #5a5a5a;
 }
 
 .top {
@@ -21,6 +31,7 @@
     float: right;
     clear: right;
 }
+
 .righthead {
     background-color: #fff;
     margin-top: 23px;
@@ -40,6 +51,48 @@ ul.nav {
     background-color: #234465;
     float: right;
     clear: right;
+}
+.maincontent {
+    width: 90%;
+    margin: 0 auto;
+}
+.maincontent img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.content-left{
+    margin-right: 3%;
+    float: left;
+    width: 30%;
+}
+.content-mid{
+    float: left;
+    width: 33%;
+}
+.content-right{
+    float: left;
+    width: 27%;
+}
+.date {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.content-right a {
+    color: #2a6496;
+    font-weight: bold;
+}
+.content-right a:hover {
+    color: #ff9c00;
+    font-weight: bold;
+    text-decoration: none;
+}
+.content-right img {
+    float: left;
+    width: 85px;
+    height: 35px;
+    margin: 15px;
 }
 ul.nav a{
     color: #fff;
@@ -84,9 +137,9 @@ ul.nav a{
     z-index: 1000;
 }
 .dropdown-menu li{
-  border-bottom: 1px solid #435f7b;
-  padding-top: 5px;
-  padding-bottom: 5px;
+    border-bottom: 1px solid #435f7b;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .dropdown-menu li:hover{
     border-bottom: 1px solid #435f7b;
@@ -111,6 +164,7 @@ ul.nav a{
     margin: 0px;
 
 }
+
 
 .leftcol {
     width:30%;
@@ -151,3 +205,124 @@ ul.nav a{
 }
 
 
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    background-color: #234465;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 40px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+footer h1 {
+    color: #ff9d1e;
+    font-size: 14px;
+    font-weight: bold;
+}
+.about ul li{
+    color: pink;
+    margin: 0;
+    list-style-type: none;
+
+}
+.about ul{
+    padding: 0;
+    margin: 0;
+}
+.about ul li a{
+    margin: 0;
+    list-style-type: none;
+    color:#fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+.about ul li a:hover{
+    color:#ff9d1e;
+}
+.friends ul li{
+    color: pink;
+    margin: 0;
+    list-style-type: none;
+
+}
+.friends ul{
+    padding: 0;
+    margin: 0;
+}
+.friends ul li a{
+    margin: 0;
+    list-style-type: none;
+    color:#fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+.friends ul li a:hover{
+    color:#ff9d1e;
+}
+.buttonscolumn {
+    width: 17%;
+    float: left;
+    box-sizing: border-box;
+}
+.footerbuttons {
+    border: 2px solid #ff9d1e;
+    width:130px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.footerbuttons:hover {
+    background-color: #ff9d1e;
+}
+.footerbuttons p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+    color:#fff;
+}
+.about {
+    width: 16%;
+    float: left;
+    box-sizing: border-box;
+}
+.friends {
+    width: 16%;
+    float: left;
+    box-sizing: border-box;
+}
+.system {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.system p {
+    color:#fff;
+    font-size: 12px;
+}
+.facebook {
+    margin-left: 30px;
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+.socialicons {
+    float:left;
+    width: 30px;
+    margin: 5px;
+}
+.fb-like-box {
+    background-color: #e9ecef;
+}
+
+/* EDN FOOTER*/
