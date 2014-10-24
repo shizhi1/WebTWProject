@@ -9,7 +9,14 @@
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <link href="bootstrap/css/course.css" rel="stylesheet" />
+    <link href="bootstrap/css/jibri-course.css" rel="stylesheet" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#head").load("header.html");
+            $("#foot").load("footer.html");
+        });
+    </script>
     <style type="text/css">
         .bs-example{
             margin: 20px;
@@ -17,65 +24,17 @@
     </style>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-3">
-            <div class="logo">
-                <img src="images/spirtUni-logo.png">
-            </div>
-        </div>
-        <div class="col-sm-9">
-            <div class="rightheader">
-                <div class="down">
-                    <div class="test">
-                        <div class="logbut">
-                            <a href="#">ВХОД</a>
-                        </div>
-                    </div>
-                    <div class="test">
-                        <div class="topmenu">
-                            <ul class="nav nav-pills">
-                                <li><a href="#">НОВИНИ</a></li>
-                                <li><a href="#">ЗА УНИВЕРСИТЕТА</a></li>
-                                <li class="dropdown">
-                                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">ОБУЧЕНИЯ <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Курсове</a></li>
-                                        <li><a class="course" href="jibri-course.html">Jibri Basics ноември 2014</a></li>
-                                        <li><a class="course" href="wine-course.html">Wine Fundamentals ноември 2014</a></li>
-                                        <li><a href="#">Fast-Track курсове</a></li>
-                                        <li><a href="#">Семинари</a></li>
-                                    </ul>
-                                <li><a href="#">РАБОТА</a></li>
-                                <li><a href="#">ПАРТНЬОРИ</a></li>
-                                <li><a href="#">фОРУМ</a></li>
-                                <li><a href="#">КОНТАКТИ</a></li>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="smallHeader">
-    <div class="smallHeaderContainer">
-        <div class="button">
-            <a href="#">Кандидатствай</a>
-        </div>
-    </div>
-</div>
+<header id="head"></header>
 <main>
     <div class="mainContainer">
-        <h3>Jibri Basics ноември 2014</h3>
+        <h3 class="jibri-title">Jibri Basics ноември 2014</h3>
         <div class="contentBox">
             <div class="courseDescription">
-                <p>Целта на курса "<span class="bold">Jibri Basics"</span> е запознаване с езика и платформата Java на начално ниво. Това включва писане на програмен код (coding skills), работа със среда за разработка (Eclipse в Linux среда), използване на данни, променливи, оператори и изрази, вход и изход от конзолата, използване на условни конструкции, цикли, методи, дефиниране и използване на прости класове, масиви, списъци, стрингове, речници, множества.</p>
+                <p>Целта на курса <strong>"Jibri Basics"</strong> е запознаване с езика и платформата Java на начално ниво. Това включва писане на програмен код (coding skills), работа със среда за разработка (Eclipse в Linux среда), използване на данни, променливи, оператори и изрази, вход и изход от конзолата, използване на условни конструкции, цикли, методи, дефиниране и използване на прости класове, масиви, списъци, стрингове, речници, множества.</p>
                 <p>Участниците в курса разработват и защитават на живо практически екипен проект. Курсът завършва с практически изпит по основи на програмирането с Java, който изисква решаване на 4 задачи за 5 часа, присъствено, на компютър, с автоматизирано оценяване в реално време.</p>
                 <p>Забележка:  Курсът е достъпен само за студенти, издържали успешно приемен изпит и записани в ниво #1.</p>
             </div>
-            <hr/>
+            <hr align="center"/>
             <div class="courseDates">
                 <div class="date"><span class="bold">Стартова дата:</span> 28-10-2014</div>
                 <div class="date"><span class="bold">Крайна дата: дата:</span> 21-11-2014</div>
@@ -111,6 +70,6 @@
         </div>
     </div>
 </main>
-<footer>I am a footer!</footer>
+<footer id="foot"></footer>
 </body>
 </html>
