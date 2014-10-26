@@ -1,0 +1,56 @@
+html {
+    font: "tahoma", "arial", "helvetica", "sans-serif";
+    font-size: 15px;
+}
+
+input, select {
+    display: inline-block;
+    width: 341px;
+    height: 40px;
+    margin-left: 500px;
+    padding: 0 9px 0 9px;
+    font-weight: normal;
+}
+
+.registration {
+    margin-left: 0;
+    color: #234465;
+}
+
+.registration:nth-of-type(2), .registration:nth-of-type(3) {
+    margin-top: 35px;
+}
+
+.formRegister {
+    margin-left: 114px;
+    padding-bottom: 20px;
+}
+
+.register-label {
+    display: block;
+    color: #234465;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+
+.space {
+    display: inline-block;
+    width: 22px;
+    height: 40px;
+}
+
+.red {
+    color: red;
+}
+
+.apply-button {
+    width: 1083px;
+    height: 47px;
+    background-color: #FF9C00;
+    border: none;
+    color: #ffffff;
+}
+
+.apply-button:hover {
+    background-color: #234465;
+}
