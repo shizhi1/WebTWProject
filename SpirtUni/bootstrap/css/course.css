@@ -21,9 +21,6 @@
     background: #D35400;
 }
 
-
-
-
 main {
     background: #EEEEEE;
 }
@@ -33,7 +30,7 @@ main {
     width: 82%;
 }
 
-h3 {
+main > div > h3 {
     margin: 0;
     font-family: inherit;
     color: #234465;

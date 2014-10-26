@@ -1,0 +1,255 @@
+body {
+    background-color: #eeeeee;
+}
+
+.container-fluid {
+    height: 105px;
+    background-color: #234465;
+}
+h1{
+    color: #234465;
+    font-size: 22px;
+    font-weight: bold;
+}
+p {
+    color: #5a5a5a;
+}
+
+.top {
+    width: 93%;
+    margin:0 auto;
+}
+.vmenu {
+    display: none;
+}
+
+.logbut {
+    width: 65px;
+    height: 35px;
+    background-color: #ff9c00;
+    padding: 8px 12px;
+    float: right;
+    clear: right;
+}
+
+.righthead {
+    background-color: #fff;
+    margin-top: 23px;
+}
+.logbut a{
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px #424242;
+}
+.logbut a:hover{
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px #424242;
+}
+
+ul.nav {
+    background-color: #234465;
+    float: right;
+    clear: right;
+}
+.maincontent {
+    width: 90%;
+    margin: 0 auto;
+}
+.maincontent img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.content-left{
+    margin-right: 3%;
+    float: left;
+    width: 30%;
+}
+.content-mid{
+    float: left;
+    width: 33%;
+}
+.content-right{
+    float: left;
+    width: 27%;
+}
+.date {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.content-right a {
+    color: #2a6496;
+    font-weight: bold;
+}
+.content-right a:hover {
+    color: #ff9c00;
+    font-weight: bold;
+    text-decoration: none;
+}
+.content-right img {
+    float: left;
+    width: 85px;
+    height: 35px;
+    margin: 15px;
+}
+ul.nav a{
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px #424242;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+
+}
+.nav-pills > li > a {
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav-pills > li > a:hover {
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #4ca0db;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #ff9c00;
+}
+
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: #234465;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: 0;
+    list-style: none outside none;
+    margin: 2px 0 0;
+    min-width: 310px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    z-index: 1000;
+}
+.dropdown-menu li{
+    border-bottom: 1px solid #435f7b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dropdown-menu li:hover{
+    border-bottom: 1px solid #435f7b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ff9c00;
+}
+
+.dropdown-menu li a{
+    font-weight: normal;
+    text-shadow: none;
+}
+.dropdown-menu li a:hover{
+    font-weight: normal;
+    text-shadow: none;
+    background-color: #ff9c00;
+    color:#fff;
+}
+
+
+.slide{
+    margin: 0px;
+
+}
+
+
+.leftcol {
+    width:30%;
+    float:left;
+}
+.rightcol {
+    width: 70%;
+    float:left;
+
+}
+.logosmall {
+    display: none;
+    width: 105px;
+}
+
+@media screen and (max-width: 1199px) {
+    .content-left {
+        width: 100%;
+    }
+    .content-mid {
+        margin-top: 80px;
+        width: 70%;
+    }
+
+    .content-right {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .slide {
+        display: none;
+    }
+    .vmenu {
+        display: inline-block;
+        float: right;
+        margin-top: 30px;
+    }
+    .logbut {
+        display: none;
+    }
+    .topmenu {
+        display: none;
+    }
+    .content-left {
+        width: 100%;
+    }
+    .content-mid {
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .content-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .logo{
+        display: none;
+    }
+    .logosmall{
+        display: block;
+    }
+}
+
+.smallHeader {
+    height: 74px;
+    background: url("../../images/smallHeaderBackground.jpg");
+}
+
+.button {
+    display: inline-block;
+    background: #FF9C00;
+    padding: 7px 10px;
+    float: right;
+    margin-right: 117px;
+    margin-top: 20px;
+}
+
+.button > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #D35400;
+}
