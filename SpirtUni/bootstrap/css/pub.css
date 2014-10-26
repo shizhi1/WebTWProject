@@ -1,0 +1,34 @@
+html {
+    font: "tahoma", "arial", "helvetica", "sans-serif";
+    font-size: 15px;
+}
+
+.jibri-title {
+    margin-left: 114px;
+    color: #234465;
+
+}
+
+.contentBox {
+    width: 1120px;
+    height: 317px;
+    margin: 35px auto 35px auto;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.76);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.18);
+}
+
+.party-guy-image {
+    display: inline-block;
+    float: left;
+    margin: 30px 0 0 30px;
+}
+
+.welcome {
+    display: inline-block;
+    width: 850px;
+    height: 400px;
+    color: #234465;
+    font-size: 20px;
+    margin: 70px 0 0 30px;
+}

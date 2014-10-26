@@ -24,7 +24,7 @@ p {
 }
 
 .logbut {
-    width: 65px;
+    width: 165px;
     height: 35px;
     background-color: #ff9c00;
     padding: 8px 12px;
@@ -248,6 +248,10 @@ ul.nav a{
 .button > a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.button > a:hover {
+    color: #FFFFFF;
 }
 
 .button:hover {
