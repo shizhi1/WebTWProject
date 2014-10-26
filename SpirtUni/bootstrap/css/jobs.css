@@ -1,0 +1,158 @@
+html {
+    font: "tahoma", "arial", "helvetica", "sans-serif";
+    font-size: 15px;
+}
+
+.jibri-title {
+    margin-left: 114px;
+    color: #234465;
+
+}
+
+.contentBox {
+    width: 1120px;
+    height: 800px;
+    margin: auto auto 35px auto;
+    background-color: transparent;
+
+
+}
+
+.courseDescription {
+    margin: 0 35px 0 35px;
+    padding-top: 38px;
+}
+
+hr {
+    width: 1050px;
+}
+
+.hr {
+    width: 1050px;
+    margin: auto;
+}
+
+.date {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.date span.bold {
+    font-weight: bold;
+}
+
+div.lecturesTable table {
+    margin-left: 35px;
+    width: 1054px;
+}
+
+div.lecturesTable table, div.lecturesTable thead, div.lecturesTable th, div.lecturesTable tr, div.lecturesTable table td {
+    border: 1px solid #D4D6D8;
+}
+
+div.lecturesTable tr th {
+    background-color: #3D99D9;
+    color: white;
+    padding: 15px 0 15px 13px;
+
+}
+
+div.lecturesTable tr th:nth-of-type(1) {
+    width: 421px;
+}
+
+div.lecturesTable table td {
+    padding: 15px 0 15px 13px;
+}
+.MOTArrow{
+    position: absolute;
+    top: 700px;
+}
+.vline{
+    background-color: #d29603;
+    height: 50px;
+    width: 2px;
+    position: absolute;
+    top: -25px;
+}
+.line{
+    background-color: #d29603;
+    height: 2px;
+    width: 150px;
+    position: absolute;
+    top: 0px;
+}
+#vline1{
+    width: 3px;
+}
+#line1{
+    left: 150px;
+}
+#vline2{
+    width: 1px;
+    left: 150px;
+}
+#vline3{
+    left: 300px;
+}
+#line2{
+    left: 300px;
+}
+#arrow{
+    position: absolute;
+    top: -25px;
+    left: 450px;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 20px solid #d29603;
+}
+#predown{
+    position: absolute;
+    top: 720px;
+    font-size: 15px;
+}
+#predown2{
+    position: absolute;
+    top: 720px;
+    font-size: 15px;
+}
+#preup{
+    position: absolute;
+    top: 630px;
+    font-size: 20px;
+}
+#preup2{
+    position: absolute;
+    top: 630px;
+    font-size: 20px;
+}
+.pre{
+    font-family: Tahoma; 
+    font-size: 25px; 
+    background-color:transparent;
+    border: 0px solid transparent;
+}
+.buttons{
+
+    background-color: #d29603;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: 0px solid transparent;
+}
+.box{
+   display: inline-block;
+}
+#buttonleft {
+    position: absolute;
+    top: 770px;
+    left: 200px;
+}
+
+#buttonright{
+    position: absolute;
+    top: 770px;
+    left: 730px;
+}
