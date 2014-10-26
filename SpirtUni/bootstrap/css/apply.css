@@ -54,3 +54,59 @@ input, select {
 .apply-button:hover {
     background-color: #234465;
 }
+
+
+@media screen and (max-width: 1214px) {
+    input, select {
+        width: 800px;
+    }
+
+    .formRegister {
+        width: 802px;
+        margin: auto;
+    }
+
+    .apply-button {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 826px) {
+    .registration {
+        font-size: 19px;
+    }
+
+    input, select {
+        width: 340px;
+    }
+
+    .formRegister {
+        width: 342px;
+        margin: auto;
+    }
+
+    .apply-button {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .registration {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    input, select {
+        width: 220px;
+        height: 30px;
+    }
+
+    .formRegister {
+        width: 222px;
+        margin: auto;
+    }
+
+    .apply-button {
+        width: 220px;
+    }
+}
