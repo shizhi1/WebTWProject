@@ -180,8 +180,24 @@ ul.nav a{
     width: 105px;
 }
 
+@media screen and (max-width: 1199px) {
+    .content-left {
+        width: 100%;
+    }
+    .content-mid {
+        margin-top: 80px;
+        width: 70%;
+    }
+
+    .content-right {
+        width: 30%;
+    }
+}
 
 @media screen and (max-width: 992px) {
+    .slide {
+       display: none;
+    }
     .vmenu {
         display: inline-block;
         float: right;
@@ -193,8 +209,19 @@ ul.nav a{
     .topmenu {
         display: none;
     }
+    .content-left {
+        width: 100%;
+    }
+    .content-mid {
+        margin-top: 80px;
+        width: 100%;
+    }
 
+    .content-right {
+        width: 100%;
+    }
 }
+
 @media screen and (max-width: 360px){
     .logo{
         display: none;
