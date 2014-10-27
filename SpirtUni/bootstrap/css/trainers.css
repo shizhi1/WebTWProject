@@ -1,0 +1,85 @@
+.smallHeader {
+    height: 74px;
+    background: url("../../images/smallHeaderBackground.jpg");
+}
+
+.button {
+    display: inline-block;
+    background: #FF9C00;
+    padding: 7px 10px;
+    float: right;
+    margin-right: 117px;
+    margin-top: 20px;
+}
+
+.button > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #D35400;
+}
+
+main {
+    background: #EEEEEE;
+}
+
+.mainContainer {
+    margin: 30px auto;
+    width: 82%;
+}
+
+main > div > h3 {
+    margin: 0;
+    font-family: inherit;
+    color: #234465;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contentBox {
+    background: #FFFFFF;
+    -moz-box-shadow: 0 0 1px #c8c8c8;
+    -webkit-box-shadow: 0 0 1px #c8c8c8;
+    box-shadow: 0 0 1px #c8c8c8;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.trainers-title {
+    color: #234465;
+    margin-top: 0;
+}
+
+.courseDescription > p {
+    font-family: Tahoma, Geneva, Kalimati, sans-serif;
+    font-style: italic;
+}
+
+.picture {
+    display: inline-block;
+    width: 20%;
+}
+
+.picture > img {
+    width: 100%;
+}
+
+.trainerDescription {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    width: 70%;
+}
+
+.trainerDescription > h4 {
+    color: #234465;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.trainerDescription:last-child > p:last-of-type {
+    padding-top: 10px;
+}
