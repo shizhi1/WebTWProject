@@ -1,5 +1,6 @@
 body {
     background-color: #eeeeee;
+    padding:0;
 }
 
 .container-fluid {
@@ -21,6 +22,9 @@ p {
 }
 .vmenu {
     display: none;
+    position: absolute;
+    z-index: 999;
+    right: 4%;
 }
 
 .logbut {
@@ -73,8 +77,30 @@ ul.nav {
     float: left;
     width: 27%;
 }
+.date {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.content-right a {
+    color: #2a6496;
+    font-weight: bold;
+}
+.content-right a:hover {
+    color: #ff9c00;
+    font-weight: bold;
+    text-decoration: none;
+}
+.content-right img {
+    float: left;
+    width: 85px;
+    height: 35px;
+    margin: 15px;
+}
+
 .about-us {
-     width: 100%;
+    width: 100%;
 }
 .course-description {
     width: 86%;
@@ -138,7 +164,26 @@ h1.news-title {
         margin-left: 14px;
     }
 }
-@media screen and (max-width: 356px){
+@media screen and (max-width: 992px) and (min-width: 601px){
+    .news {
+        height: 130px;
+    }
+    .news-image {
+        display: inline;
+        float: left;
+    }
+    .news-link {
+        display: block;
+        float: left;
+        width: 100px;
+        font-size: 12px;
+        margin: -13px 0 0 15px;
+    }
+    h1.news-title {
+        margin-left: 14px;
+    }
+}
+@media screen and (max-width: 398px){
     .news {
         height: 70px;
     }
@@ -156,21 +201,6 @@ h1.news-title {
     h1.news-title {
         margin-left: 14px;
     }
-}
-.content-right a {
-    color: #2a6496;
-    font-weight: bold;
-}
-.content-right a:hover {
-    color: #ff9c00;
-    font-weight: bold;
-    text-decoration: none;
-}
-.content-right img {
-    float: left;
-    width: 85px;
-    height: 35px;
-    margin: 15px;
 }
 ul.nav a{
     color: #fff;
@@ -240,9 +270,7 @@ ul.nav a{
 
 .slide{
     margin: 0px;
-
 }
-
 
 .leftcol {
     width:30%;
@@ -257,58 +285,6 @@ ul.nav a{
     display: none;
     width: 105px;
 }
-
-@media screen and (max-width: 1199px) {
-    .content-left {
-        width: 100%;
-    }
-    .content-mid {
-        margin-top: 80px;
-        width: 70%;
-    }
-
-    .content-right {
-        width: 30%;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .slide {
-       display: none;
-    }
-    .vmenu {
-        display: inline-block;
-        float: right;
-        margin-top: 30px;
-    }
-    .logbut {
-        display: none;
-    }
-    .topmenu {
-        display: none;
-    }
-    .content-left {
-        width: 100%;
-    }
-    .content-mid {
-        margin-top: 80px;
-        width: 100%;
-    }
-
-    .content-right {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 360px){
-    .logo{
-        display: none;
-    }
-    .logosmall{
-        display: block;
-    }
-}
-
 /*Footer*/
 
 footer{
@@ -383,7 +359,6 @@ footer h1 {
     margin: 0 auto;
     margin-bottom: 10px;
 }
-
 .footerbuttons:hover {
     background-color: #ff9d1e;
 }
@@ -429,3 +404,137 @@ footer h1 {
 }
 
 /* EDN FOOTER*/
+@media screen and (max-width: 1199px) {
+
+    .content-left {
+        width: 100%;
+    }
+    .content-left img{
+        float:left;
+        margin-right: 10px;
+    }
+    .content-mid {
+        width: 70%;
+    }
+    .content-right {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .vmenu {
+        display: inline-block;
+        float: right;
+        margin-top: 30px;
+    }
+    .logbut {
+        display: none;
+    }
+    .topmenu {
+        display: none;
+        position: absolute;
+        z-index: 999;
+        right: 8%;
+        top:60px;
+    }
+    .content-right img {
+        float: none;
+        display: block;
+        width: 85px;
+        height: 35px;
+        margin: 15px;
+    }
+    .content-mid {
+        padding-right: 30px ;
+    }
+}
+@media screen and (max-width: 850px) {
+    .buttonscolumn {
+        float: none;
+
+        width: 90%;
+    }
+    .facebook {
+        display: none;
+    }
+    .about {
+        width: 30%;
+    }
+    .friends {
+        width: 30%;
+    }
+    .system {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container-fluid {
+        height: 80px;
+    }
+    .logo img{
+        height: 78px;
+    }
+    .content-left img{
+        width: 92%;
+        display: none;
+    }
+    .content-mid{
+        width: 90%;
+}
+    .content-mid img {
+        width: 93%;
+        display: none;
+    }
+    .content-right{
+        width: 90%;
+    }
+    .content-right img{
+        float:left;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .slide {
+        display: none;
+    }
+    .buttonscolumn {
+        float: none;
+        width: 90%;
+    }
+    .facebook {
+        display: none;
+    }
+    .about {
+        float: none;
+        width: 90%;
+    }
+    .friends {
+        float: none;
+        width: 90%;
+    }
+    .system {
+        float: none;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .logo{
+        display: none;
+    }
+    .logosmall{
+        display: block;
+    }
+    .container-fluid {
+        height: 50px;
+    }
+    .logosmall img{
+        height: 48px;
+    }
+    .vmenu {
+        top:-20px;
+    }
+    .topmenu{
+        top:50px;
+    }
+}
