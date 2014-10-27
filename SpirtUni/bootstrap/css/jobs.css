@@ -66,7 +66,7 @@ div.lecturesTable table td {
 }
 .MOTArrow{
     position: absolute;
-    top: 700px;
+    top: 800px;
 }
 .vline{
     background-color: #d29603;
@@ -110,22 +110,22 @@ div.lecturesTable table td {
 }
 #predown{
     position: absolute;
-    top: 720px;
+    top: 830px;
     font-size: 15px;
 }
 #predown2{
     position: absolute;
-    top: 720px;
+    top: 830px;
     font-size: 15px;
 }
 #preup{
     position: absolute;
-    top: 630px;
+    top: 750px;
     font-size: 20px;
 }
 #preup2{
     position: absolute;
-    top: 630px;
+    top: 750px;
     font-size: 20px;
 }
 .pre{
@@ -145,14 +145,15 @@ div.lecturesTable table td {
 .box{
    display: inline-block;
 }
+
 #buttonleft {
     position: absolute;
-    top: 770px;
+    top: 900px;
     left: 200px;
 }
 
 #buttonright{
     position: absolute;
-    top: 770px;
-    left: 730px;
+    top: 900px;
+    left: 800px;
 }
