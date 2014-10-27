@@ -65,8 +65,9 @@ div.lecturesTable table td {
     padding: 15px 0 15px 13px;
 }
 .MOTArrow{
-    position: absolute;
-    top: 800px;
+    position: relative;
+    top: -30px;
+    left:35px;
 }
 .vline{
     background-color: #d29603;
@@ -109,23 +110,16 @@ div.lecturesTable table td {
     border-left: 20px solid #d29603;
 }
 #predown{
-    position: absolute;
-    top: 830px;
+    position: relative;
+    top: -15px;
+    left: 30px;
     font-size: 15px;
 }
-#predown2{
-    position: absolute;
-    top: 830px;
-    font-size: 15px;
-}
+
 #preup{
-    position: absolute;
-    top: 750px;
-    font-size: 20px;
-}
-#preup2{
-    position: absolute;
-    top: 750px;
+    position: relative;
+    top: 0px;
+    left: 30px;
     font-size: 20px;
 }
 .pre{
@@ -147,13 +141,16 @@ div.lecturesTable table td {
 }
 
 #buttonleft {
-    position: absolute;
-    top: 900px;
-    left: 200px;
+    position: relative;
+    top: 0px;
+    left: 40px;
 }
 
 #buttonright{
-    position: absolute;
-    top: 900px;
-    left: 800px;
+    position: relative;
+    top: 0px;
+    left: 35px;
+}
+h1{
+    font-size: 100;
 }
