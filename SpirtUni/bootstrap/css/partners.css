@@ -1,0 +1,66 @@
+html {
+    font: "tahoma", "arial", "helvetica", "sans-serif";
+    font-size: 15px;
+}
+
+.jibri-title {
+    margin-left: 114px;
+    color: #234465;
+
+}
+
+.contentBox {
+    width: 83%;
+    height: 400px;
+    margin: 35px auto 35px auto;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.76);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.18);
+}
+
+.banner1 {
+    display: block;
+    float: left;
+    margin: 10px 0 0 110px;
+    max-width: 80%;
+}
+
+.name {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #234465;
+}
+
+@media screen and (max-width: 1199px) {
+    .contentBox {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .contentBox {
+        width: 500px;
+        height: 300px;
+    }
+
+    .banner1 {
+        margin: 10px 0 0 50px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .contentBox {
+        width: 250px;
+        height: 200px;
+    }
+
+    .banner1 {
+        margin: 10px 0 0 25px;
+    }
+
+    .name {
+        font-size: 13px;
+    }
+}
