@@ -1,0 +1,141 @@
+.smallHeader {
+    height: 74px;
+    background: url("../../images/smallHeaderBackground.jpg");
+}
+
+.button {
+    display: inline-block;
+    background: #FF9C00;
+    padding: 7px 10px;
+    float: right;
+    margin-right: 117px;
+    margin-top: 20px;
+}
+
+.button > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #D35400;
+}
+
+main {
+    background: #EEEEEE;
+}
+
+.mainContainer {
+    margin: 30px auto;
+    width: 82%;
+}
+
+main > div > h3 {
+    margin: 0;
+    font-family: inherit;
+    color: #234465;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contentBox {
+    background: #FFFFFF;
+    -moz-box-shadow: 0 0 1px #c8c8c8;
+    -webkit-box-shadow: 0 0 1px #c8c8c8;
+    box-shadow: 0 0 1px #c8c8c8;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.plans-title {
+    color: #234465;
+    margin-top: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.date {
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+thead > tr > th {
+    background: #234465;
+    color: #FFFFFF;
+    border: 1px solid #D4D6D8;
+    height: 40px;
+    font-weight: normal;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+thead > tr > th:nth-of-type(2), thead > tr > th:nth-of-type(3), thead > tr > th:nth-of-type(4) {
+    text-align: center;
+}
+
+th:first-child {
+    width: 40%;
+}
+
+tbody > tr {
+    background: #FFFFFF;
+    border: 1px solid #D4D6D8;
+}
+
+tbody > tr:hover {
+    background-color: #F5F5F5;
+}
+
+tr.price {
+    background-color: #F4F4F4;
+}
+
+tr.price td {
+    font-weight: bold;
+}
+
+tr.price td:nth-of-type(3) {
+    font-weight: bold;
+    color: #4CA7E2;
+    text-align: center;
+}
+
+tr.price td:nth-of-type(2), tr.price td:nth-of-type(4) {
+    text-align: center;
+}
+
+tbody > tr > td {
+    padding: 10px;
+    border: 1px solid #D4D6D8;
+}
+
+.wine {
+    display: block;
+    margin: auto;
+}
+
+.goods {
+    vertical-align: middle;
+}
+
+.notes {
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.notes-list {
+    margin: 20px 0 0 16px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}

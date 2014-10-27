@@ -73,11 +73,89 @@ ul.nav {
     float: left;
     width: 27%;
 }
-.date {
-    font-size: 12px;
-    margin-bottom: 10px;
+.about-us {
+     width: 100%;
+}
+.course-description {
+    width: 86%;
+}
+.news {
+    height: 70px;
+}
+.news-image {
+    display: inline-block;
+    float: left;
+    padding-left: 0;
+}
+.news-link {
+    display: inline-block;
+    width: 218px;
     margin-top: 10px;
-    text-align: center;
+}
+h1.news-title {
+    margin-left: 14px;
+}
+@media screen and (max-width: 1365px) and (min-width: 1043px){
+    .news {
+        height: 70px;
+    }
+    .news-image {
+        display: inline-block;
+        float: left;
+        padding-left: 0;
+    }
+    .news-link {
+        display: inline-block;
+        width: 170px;
+        margin-top: 2px;
+    }
+    #first-news {
+        margin-top: 12px;
+    }
+    h1.news-title {
+        margin-left: 14px;
+    }
+}
+@media screen and (max-width: 1042px) and (min-width: 993px){
+    .news {
+        height: 70px;
+    }
+    .news-image {
+        display: inline-block;
+        float: left;
+        padding-left: 0;
+    }
+    .news-link {
+        display: inline-block;
+        width: 150px;
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    #first-news {
+        margin-top: 15px;
+    }
+    h1.news-title {
+        margin-left: 14px;
+    }
+}
+@media screen and (max-width: 356px){
+    .news {
+        height: 70px;
+    }
+    .news-image {
+        display: block;
+        float: left;
+        padding-left: 0;
+    }
+    .news-link {
+        display: block;
+        width: 250px;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    h1.news-title {
+        margin-left: 14px;
+    }
 }
 .content-right a {
     color: #2a6496;
@@ -230,8 +308,6 @@ ul.nav a{
         display: block;
     }
 }
-
-
 
 /*Footer*/
 
