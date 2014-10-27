@@ -11,7 +11,7 @@ html {
 
 .contentBox {
     width: 1120px;
-    height: 317px;
+    height: 260px;
     margin: 35px auto 35px auto;
     background-color: #ffffff;
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.76);
@@ -21,27 +21,33 @@ html {
 .party-guy-image {
     display: inline-block;
     float: left;
-    margin: 30px 0 0 30px;
+    margin: 35px 0 0 35px;
 }
 
 .welcome {
     display: inline-block;
     width: 850px;
-    height: 400px;
+    height: 220px;
     color: #234465;
-    font-size: 20px;
-    margin: 70px 0 0 30px;
+    font-size: 18px;
+    margin: 15px 0 0 15px;
 }
 
 @media screen and (max-width: 1199px) {
     .contentBox {
         width: 900px;
+        height: 670px;
     }
 
     .welcome {
         width: 650px;
         font-size: 19px;
-        margin: 65px 0 0 30px;
+        margin: 65px auto auto 126px;
+    }
+    .party-guy-image {
+        display: inline-block;
+        float: left;
+        margin: 35px 0 0 348px;
     }
 }
 
@@ -52,33 +58,33 @@ html {
     }
 
     .welcome {
-        width: 250px;
-        font-size: 19px;
+        width: 442px;
+        font-size: 16px;
         margin: 30px 0 0 30px;
     }
 
     .party-guy-image {
         display: inline-block;
         float: left;
-        margin: 170px 0 0 30px;
+        margin: 25px 0 0 147px;
     }
 }
 
 @media screen and (max-width: 520px) {
     .contentBox {
         width: 250px;
-        height: 750px;
+        height: 770px;
     }
 
     .welcome {
         width: 240px;
-        font-size: 17px;
+        font-size: 15px;
         margin: 10px 5px 0 5px;
     }
 
     .party-guy-image {
         display: block;
         float: left;
-        margin: 10px 0 0 30px;
+        margin: 10px 0 0 23px;
     }
 }

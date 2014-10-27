@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>За нас</title>
+    <link href="images/favico.png" rel="shortcut icon" type="image/x-icon">
+    <link href="bootstrap/css/resetter.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="bootstrap/css/about.css" rel="stylesheet" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#head").load("header-course.html");
+            $("#foot").load("footer.html");
+        });
+    </script>
+    <script>
+        function menu() {
+            var button = document.getElementById("menu").className = "nav dropdown";
+            var menu = document.querySelector(".topmenu");
+            if (menu.style.display == 'none')
+                menu.style.display = "inline";
+            else
+                menu.style.display = "none";
+        }
+    </script>
+    <style type="text/css">
+        .bs-example{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+<header id="head"></header>
+<main>
+    <div class="mainContainer">
+        <div class="contentBox">
+            <img class="party-guy-image" src="images/SpirtUni.png" alt="Ready"/>
+            <div class="welcome">За нас, както и за цялата алкохолна индустрия, е най-важен практическият опит. Нашата мисия е да направим хората, които обучаваме, способни да изпиват промишлени количества алкохол, без да припадат и да им съдействаме в това да избягват всякаква работа.
+
+                Учебният план, по който се провеждат занятията в Спиртния Университет, се състои от няколко нива – едно подготвително ниво за приемния практически изпит (2 месеца и ~60 каси бира) и доста нива обучение по системно наливане, технологии на производство на спиртни напитки (всяко по 4 месеца или до изчерпване на количествата). Предоставя се възможност за получаване на лиценз за собствен казан за ракия пред един от нашите университети-партньори след допълнително обучение в градниките зад тях с продължителност 1 или 2 години.</div>
+        </div>
+    </div>
+</main>
+<footer id="foot"></footer>
+</body>
+</html>
