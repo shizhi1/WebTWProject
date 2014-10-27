@@ -1,0 +1,118 @@
+html {
+    font: "tahoma", "arial", "helvetica", "sans-serif";
+    font-size: 15px;
+}
+
+.jibri-title {
+    margin-left: 114px;
+    color: #234465;
+
+}
+
+.contentBox {
+    width: 1120px;
+    height: 360px;
+    margin: 35px auto 35px auto;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.76);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.18);
+}
+
+.party-guy-image {
+    display: inline-block;
+    float: left;
+    margin: 30px 0 0 30px;
+}
+
+.welcome {
+    display: inline-block;
+    width: 772px;
+    height: 230px;
+    color: #234465;
+    font-size: 20px;
+    margin: 27px 0 0 30px;
+}
+
+.disclaimer {
+    margin-left: 30px;
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1199px) {
+    .contentBox {
+        width: 900px;
+    }
+
+    .welcome {
+        width: 550px;
+        font-size: 19px;
+        margin: 15px 0 0 30px;
+    }
+
+    .disclaimer {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-style: italic;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .contentBox {
+        width: 500px;
+        height: 600px;
+    }
+
+    .welcome {
+        width: 440px;
+        margin: -180px 0 0 30px;
+        font-size: 14px;
+    }
+
+    .party-guy-image {
+        display: block;
+        float: left;
+        width: 300px;
+        margin: 30px 0 200px 30px;
+    }
+
+    .disclaimer {
+        font-size: 12px;
+        width: 440px;
+    }
+
+    iframe {
+        width: 439px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .contentBox {
+        width: 250px;
+        height: 750px;
+    }
+
+    .welcome {
+        width: 240px;
+        font-size: 14px;
+        margin: 10px 5px 0 5px;
+    }
+
+    .party-guy-image {
+        display: block;
+        float: left;
+        margin: 10px 0 0 10px;
+    }
+
+    .disclaimer {
+        font-size: 12px;
+        width: 240px;
+        margin-left: 5px;
+    }
+
+    iframe {
+        width: 230px;
+    }
+}
