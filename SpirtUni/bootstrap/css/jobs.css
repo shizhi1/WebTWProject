@@ -153,3 +153,8 @@ div.lecturesTable table td {
 h1{
     font-size: 100;
 }
+.logos {
+    align-items: center;
+    height: 250px;
+    width: 300px;
+}
