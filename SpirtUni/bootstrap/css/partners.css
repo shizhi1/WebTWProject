@@ -33,6 +33,10 @@ width: 85%;
     color: #234465;
 }
 
+.center {
+    margin-left: 15px;
+}
+
 @media screen and (max-width: 1199px) {
     .contentBox {
         width: 900px;
