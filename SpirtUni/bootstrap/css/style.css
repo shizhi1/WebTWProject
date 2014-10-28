@@ -398,11 +398,12 @@ footer h1 {
 }
 @media screen and (max-width: 992px) and (min-width: 601px){
     .news {
-        height: 130px;
+        height: 70px;
     }
     .news-image {
         display: inline;
         float: left;
+        margin-bottom: 5px;
     }
     .news-link {
         display: block;
@@ -468,13 +469,13 @@ footer h1 {
         right: 8%;
         top:60px;
     }
-    .content-right img {
+  /*  .content-right img {
         float: none;
         display: block;
         width: 85px;
         height: 35px;
         margin: 15px;
-    }
+    }*/
     .content-mid {
         padding-right: 30px ;
     }
@@ -547,6 +548,7 @@ footer h1 {
         float: none;
         width: 90%;
     }
+
 }
 
 @media screen and (max-width: 360px){
@@ -567,6 +569,9 @@ footer h1 {
     }
     .topmenu{
         top:50px;
+    }
+    .news {
+        height: 30px;
     }
 }
 
