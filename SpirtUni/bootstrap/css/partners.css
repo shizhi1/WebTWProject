@@ -11,7 +11,7 @@ html {
 
 .contentBox {
     width: 83%;
-    height: 400px;
+    max-height: 1500px;
     margin: 35px auto 35px auto;
     background-color: #ffffff;
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.76);
@@ -22,7 +22,7 @@ html {
     display: block;
     float: left;
     margin: 10px 0 0 110px;
-    max-width: 80%;
+width: 85%;
 }
 
 .name {
@@ -63,4 +63,9 @@ html {
     .name {
         font-size: 13px;
     }
+}
+.logos{
+    height: 150px;
+    width: 150px;
+    margin: auto;
 }
