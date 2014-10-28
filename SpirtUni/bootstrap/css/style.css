@@ -3,6 +3,11 @@ body {
     padding:0;
 }
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .container-fluid {
     height: 105px;
     background-color: #234465;
@@ -537,4 +542,20 @@ footer h1 {
     .topmenu{
         top:50px;
     }
+}
+.validators{
+    width: 100%;
+}
+.validators img{
+    display: inline;
+    float: left;
+    margin:10px;
+}
+
+table {
+    width:95%;
+    margin: 0 auto;
+}
+td {
+    width: 50%;
 }
